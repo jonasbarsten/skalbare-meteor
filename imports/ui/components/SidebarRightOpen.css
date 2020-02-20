@@ -1,0 +1,28 @@
+.fixed-sidebar-right.sidebar--large.custom {
+	transform: none;
+	-webkit-transform: none;
+}
+
+.fixed-sidebar.custom {
+	position: relative;
+	width: 270px;
+}
+
+#sidebar-overlay {
+	display: none;
+}
+
+.custom-sidebar-enter {
+  opacity: 0;
+}
+.custom-sidebar-enter-active {
+  opacity: 0.01;
+  transition: opacity 10000ms ease-in;
+}
+.custom-sidebar-exit {
+  opacity: 1;
+}
+.custom-sidebar-active {
+  opacity: 0.01;
+  transition: opacity 10000ms ease-in;
+}

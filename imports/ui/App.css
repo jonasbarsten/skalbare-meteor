@@ -1,0 +1,16 @@
+/*.App {
+  margin-top: 15px;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+}*/
+
+.link:hover {
+	cursor: pointer;
+}
+
+.active {
+	fill: #ff5e3a;
+	color: #ff5e3a;
+}
